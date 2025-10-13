@@ -9,20 +9,20 @@ def get_first_and_last_two
 def find_maximum[numbers]:
 	maximum = numbers[0]
 
-    	for i in range(len(number)):
+    	for i in range(len(numbers)):
 
 		if numbers[i] > maximum:
-	  		 maximum = number[i]
+	  		 maximum = numbers[i]
     	return maximum
 
 
 def find_minimum[numbers]:
 	minimum = numbers[0]
 
-   	for i in range(len(number)):
+   	for i in range(len(numbers)):
 
 		if numbers[i] < minimum:
-		 	  minimum = number[i]
+		 	  minimum = numbers[i]
   	return maximum
 
 
