@@ -1,5 +1,16 @@
-transactions = []
-balance = 0
+def get_new_balance(amount):
+
+	new_balance = 0
+	new_balance + amount
+
+	return new_balance
+
+def get_balance_after_withdrawal(withdraw):
+
+	withdraw_balance = 0
+	withdraw_new_balance = new_balance_withdraw
+	
+	return withdraw_balance
 
 for i in range(10):  
     print("""
