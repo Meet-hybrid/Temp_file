@@ -2,9 +2,9 @@ public class CountOfEvenNumbers {
     
     public static void main(String[] args) {
         int count = 0;
-        for (int i = 1; i <= 100; i++) {
+        for (int number = 1; number <= 100; number++) {
           
-            if (i % 2 == 0) {
+            if (number % 2 == 0) {
 		count++;
           	 
             }

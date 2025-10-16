@@ -1,9 +1,9 @@
 public class Count {
    public static void main(String[] args) {
 	int count = 0;		
-	for (int i = 1; i <= 100; i++) {
+	for (int number = 1; number <= 100; number++) {
           
-            if (i % 9 == 0) {
+            if (9 % number == 0) {
 		count++;
            	 
             }

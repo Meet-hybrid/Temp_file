@@ -1,10 +1,10 @@
 public class Divisor {
    public static void main(String[] args) {
 
-	   for (int i = 1; i <= 100; i++) {
+	   for (int number = 1; number <= 100; number++) {
           
-            if (i % 9 == 0) {
-            System.out.print(i + " ");	 
+            if (9 % number == 0) {
+            System.out.print(number + " ");	 
             }
         }
         System.out.println();
